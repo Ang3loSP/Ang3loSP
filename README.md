@@ -1,4 +1,4 @@
-# Hi, I'm Angelo Puza 👋
+# Hello-Hi, I'm Angelo Puza 👋
 
 **Full Stack Software Developer** based in Johannesburg, South Africa.
 
