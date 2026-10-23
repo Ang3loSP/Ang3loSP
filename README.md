@@ -5,7 +5,7 @@
 I'm a junior .NET developer working on a live ASP.NET Core Blazor Server ERP, and I'm completing an NQF Level 5 Full Stack Web & Software Development qualification. I like root-cause debugging, clean architecture & shipping things that actually run.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-angelo--puza--portfolio.vercel.app-1F3864?style=for-the-badge&logo=vercel&logoColor=white)](https://angelo-puza-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([www.linkedin.com/in/angelo-puza-394b28266](https://www.linkedin.com/in/angelo-puza-394b28266?utm_source=share_via&utm_content=profile&utm_medium=member_ios))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/angelo-puza-394b28266)
 
 ---
 
@@ -96,4 +96,4 @@ English, Zulu & Xhosa (fluent)
 ## 📫 Let's connect
 
 - 🌐 [Portfolio](https://angelo-puza-portfolio.vercel.app)
-- 💼 [LinkedIn]([www.linkedin.com/in/angelo-puza-394b28266](https://www.linkedin.com/in/angelo-puza-394b28266?utm_source=share_via&utm_content=profile&utm_medium=member_ios))
+- 💼 [LinkedIn](www.linkedin.com/in/angelo-puza-394b28266)
