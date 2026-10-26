@@ -21,14 +21,14 @@ I'm a junior .NET developer working on a live ASP.NET Core Blazor Server ERP, an
 
 ## ⭐ Featured projects
 
-### [DispatchTrack](https://github.com/Ang3loSP/DispatchTrack) | [Live demo](https://dispatchtrack.onrender.com)
+### [DispatchTrack](https://github.com/Ang3loSP/DispatchTrack) |
 Role-based dispatch platform (Admin, Dispatcher, Driver) with a live dashboard & mobile-first driver portal, deployed at $0/month.
 - JWT auth with rotating httpOnly refresh tokens & replay detection
 - Server-enforced job state machine with PostgreSQL `xmin` optimistic concurrency & audit history
 - Redis cache-aside with PostgreSQL fallback, 50 xUnit integration tests, Docker & GitHub Actions CI/CD
 - **Stack:** React 19, TypeScript, ASP.NET Core 10, PostgreSQL, Redis, Docker
 
-> The live demo runs on a free tier, so the first load after idle can take 30-50 seconds.
+> The live demo is not live yet but it will run on a free tier, so the first load after idle can take 30-50 seconds.
 
 ### [TechStock IMS](https://github.com/Ang3loSP/TechStock-IMS)
 Role-secured inventory system with a public REST API, analytics dashboard & in-memory caching.
