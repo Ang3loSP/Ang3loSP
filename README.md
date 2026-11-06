@@ -96,4 +96,4 @@ English, Zulu & Xhosa (fluent)
 ## 📫 Let's connect
 
 - 🌐 [Portfolio](https://angelo-puza-portfolio.vercel.app)
-- 💼 [LinkedIn](www.linkedin.com/in/angelo-puza-394b28266)
+- 💼 [LinkedIn](https://www.linkedin.com/in/angelo-puza-394b28266/)
