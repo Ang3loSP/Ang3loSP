@@ -1,8 +1,8 @@
-# Hello-Hi, I'm Angelo Puza 👋
+# Hi, I'm Angelo Puza 👋
 
-**Full Stack Software Developer** based in Johannesburg, South Africa.
+**Junior .NET Developer & Full Stack Software Developer** based in Johannesburg, South Africa.
 
-I'm a junior .NET developer working on a live ASP.NET Core Blazor Server ERP, and I'm completing an NQF Level 5 Full Stack Web & Software Development qualification. I like root-cause debugging, clean architecture & shipping things that actually run.
+I'm one of two in-house developers on a live ASP.NET Core Blazor Server ERP at PMD Dies & Stereos, and I'm completing an NQF Level 5 Full Stack Web & Software Development qualification. I like root-cause debugging, clean architecture & shipping things that actually run.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-angelo--puza--portfolio.vercel.app-1F3864?style=for-the-badge&logo=vercel&logoColor=white)](https://angelo-puza-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angelo-puza-394b28266/)
@@ -11,24 +11,39 @@ I'm a junior .NET developer working on a live ASP.NET Core Blazor Server ERP, an
 
 ## 🔭 What I'm up to
 
-- 💼 Junior Developer at PMD Dies & Stereos, shipping features & fixes on a production ASP.NET Core Blazor Server ERP
-- 🚀 Building **DispatchTrack**, a full-stack logistics dispatch platform (my current flagship project)
+- 💼 **Junior Developer at PMD Dies & Stereos** (Jul 2026 – present): 35 merged pull requests to a production ERP, plus internal tools I built from scratch
+- 🚀 Building **DispatchTrack**, a full-stack logistics dispatch platform (my flagship project, now live)
+- 🗺️ Developing a dispatch route planner (Blazor Server, Dapper, Leaflet/OpenStreetMap) with OSRM road-following routes
 - 📚 Studying Full Stack Web & Software Development (NQF Level 5) at AIE
 - 🐍 Learning Python
 - 🔎 Open to junior developer or QA roles in South Africa or remote
 
 ---
 
+## 💼 Professional work
+
+At PMD Dies & Stereos I extend **PMDEdge**, a custom ASP.NET Core Blazor Server production management ERP (quoting, job tickets, production, warehouse/dispatch, invoicing). The code is private, but here's what I've done:
+
+- Fixed quoting-engine defects behind inconsistent customer pricing & bound PDF previews to the selected revision
+- Rewrote operator shift clock-in logic against a 20-case truth table & added xUnit tests
+- Built **Flexopedia**, an internal documentation platform embedded in the ERP
+- Built a site-wide search system from scratch (Python indexing, weighted relevance scoring, accessible UI)
+- Delivered new workflows backed by idempotent SQL configuration & rollback scripts
+- Every change root-caused & runtime-verified before release, through Azure DevOps & GitHub
+
+---
+
 ## ⭐ Featured projects
 
-### [DispatchTrack](https://github.com/Ang3loSP/DispatchTrack) |
-Role-based dispatch platform (Admin, Dispatcher, Driver) with a live dashboard & mobile-first driver portal, deployed at $0/month.
+### [DispatchTrack](https://github.com/Ang3loSP/DispatchTrack) | [Live demo](https://dispatchtrack.onrender.com)
+Role-based dispatch platform (Admin, Dispatcher, Driver) with a live dashboard & mobile-first driver portal, deployed at $0/month as a single Docker container.
 - JWT auth with rotating httpOnly refresh tokens & replay detection
 - Server-enforced job state machine with PostgreSQL `xmin` optimistic concurrency & audit history
 - Redis cache-aside with PostgreSQL fallback, 50 xUnit integration tests, Docker & GitHub Actions CI/CD
+- WCAG AA frontend & 5 Architecture Decision Records (ADRs)
 - **Stack:** React 19, TypeScript, ASP.NET Core 10, PostgreSQL, Redis, Docker
 
-> The live demo is not live yet but it will run on a free tier, so the first load after idle can take 30-50 seconds.
+> The demo runs on a free tier, so the first load after idle can take 30-50 seconds.
 
 ### [TechStock IMS](https://github.com/Ang3loSP/TechStock-IMS)
 Role-secured inventory system with a public REST API, analytics dashboard & in-memory caching.
@@ -41,7 +56,7 @@ QA-focused bug & test case management system.
 - Bidirectional bug-to-test-case linking & a dashboard with pass rate
 - **Stack:** ASP.NET Core 8 MVC, C#, EF Core, SQL Server, Bootstrap 5
 
-### [SmartGear Online](https://github.com/Ang3loSP/SmartGear-Online)
+### [SmartGear Online](https://github.com/Ang3loSP/SmartGear-Online) | [Live demo](https://smartgear-angelopuza-bge0fma2hcfzfwdf.southafricanorth-01.azurewebsites.net/)
 Full-stack e-commerce platform with cart, authentication & order processing, deployed to Azure with CI/CD.
 - **Stack:** ASP.NET Core 8 MVC, C#, EF Core, SQL Server, SignalR, Azure
 
@@ -54,6 +69,7 @@ Full-stack e-commerce platform with cart, authentication & order processing, dep
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -82,7 +98,7 @@ Full-stack e-commerce platform with cart, authentication & order processing, dep
 
 - **Root-cause first:** I find why something broke before I fix it, then verify the fix at runtime
 - **Testing matters:** xUnit & Moq unit tests, plus integration tests with `WebApplicationFactory`
-- **Document decisions:** my projects include READMEs & Architecture Decision Records (ADRs) explaining the trade-offs
+- **Document decisions:** my projects include READMEs & ADRs explaining the trade-offs
 - **Honest about limits:** each project lists its known limitations
 
 ---
